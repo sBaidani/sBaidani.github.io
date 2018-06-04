@@ -1,2 +1,7 @@
+!node_modules/
+
 node_modules/*
-!node_modules/material-components-web/*
+
+!node_modules/material-components-web/
+!node_modules/@material/
+!node_modules/live-server/
