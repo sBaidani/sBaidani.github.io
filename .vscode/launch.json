@@ -1,0 +1,47 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "Launch Chrome - localhost",
+			"url": "http://localhost:8080",
+			"webRoot": "${workspaceFolder}"
+		},
+		{
+			"type": "edge",
+			"request": "launch",
+			"name": "Launch Edge - localhost",
+			"url": "http://localhost:8080",
+			"webRoot": "${workspaceFolder}"
+		},
+		{
+			"type": "chrome",
+			"request": "attach",
+			"name": "Attach to Chrome",
+			"port": 9222,
+			"webRoot": "${workspaceFolder}"
+		},
+		{
+			"type": "edge",
+			"request": "attach",
+			"name": "Attach to Edge",
+			"port": 2015,
+			"webRoot": "${workspaceFolder}"
+		},
+		
+	],
+	"compounds": [
+		{
+			"name": "Launch and Attach (Chrome)",
+			"configurations": ["Attach to Chrome", "Launch Chrome - localhost"]
+		},
+		{
+			"name": "Launch and Attach (Edge)",
+			"configurations": ["Launch Edge - localhost", "Attach to Edge"]
+		}
+	]
+}
