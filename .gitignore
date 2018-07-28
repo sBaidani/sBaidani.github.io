@@ -5,3 +5,10 @@ node_modules/*
 !node_modules/material-components-web/
 !node_modules/@material/
 !node_modules/live-server/
+!node_modules/webpack/
+!node_modules/webpack-dev-server/
+!node_modules/sass-loader/
+!node_modules/node-sass/
+!node_modules/file-loader/
+!node_modules/css-loader/
+!node_modules/extract-loader/
