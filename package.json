@@ -8,14 +8,16 @@
     "extract-loader": "^2.0.1",
     "file-loader": "^1.1.11",
     "live-server": "^1.2.0",
-    "material-components-web": "^0.30.0",
-    "node-sass": "^4.9.2",
-    "sass-loader": "^7.0.3",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
     "webpack": "^3.12.0",
-    "webpack-dev-server": "^2.11.2"
+    "webpack-dev-server": "^2.11.3"
   },
   "devDependencies": {
-    "@material/button": "^0.37.1"
+    "@material/button": "^0.37.1",
+    "autoprefixer": "^9.1.3",
+    "material-components-web": "file:node_modules/material-components-web",
+    "postcss-loader": "^2.1.6"
   },
   "scripts": {
     "start": "webpack-dev-server"
@@ -29,5 +31,5 @@
   "bugs": {
     "url": "https://github.com/sBaidani/sBaidani.github.io/issues"
   },
-  "homepage": "https://github.com/sBaidani/sBaidani.github.io#readme"
+  "homepage": "https://github.com/sBaidani/sBaidani.github.io"
 }
