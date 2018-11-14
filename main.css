@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3{
+	color: #E81123;
+	font-family: 'Oxygen', 'Courier New';
+}
+
+h1{
+	margin: auto;
+	text-align: center;
+}
+
+p{
+	font-family: 'Poppins', sans-serif, Arial;
+}
+
+div{
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+}
+
+.header{
+	background-color: #333333;
+	margin: 0;
+	padding: 5%;
+}
